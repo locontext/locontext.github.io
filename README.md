@@ -1,3 +1,1 @@
-locontext.github.io
-/nThis is my personal website
-/nThis means I have editted the website
+This is the page I intended to edit. Welcome to the Home Screen!
