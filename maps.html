@@ -2,7 +2,11 @@
     <head></head>
         <title>run my python files</title>
             <body class="page_bg">
-                <?php echo shell_exec("python test.py 'parameter1'"); ?>
+                <?php
+                $command_exec = escapeshellcmd('test.py');
+                $str_output = shell_exec($command_exec);
+                echo $str_output;
+                ?>
             </body>
             
     
