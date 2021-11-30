@@ -1,4 +1,1 @@
-import sys
-input=sys.argv[1]
-print(input)
-
+print('You can run python in another tab')
